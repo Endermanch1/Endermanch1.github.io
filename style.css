@@ -40,10 +40,10 @@ p{
 	0%{
 		transform: translateY(0px);
 	}
-	40%{
+	30%{
 		transform: translateY(200px);
 	}
-	50%{
+	40%{
 		transform: translateY(0px);
 	}
 	100%{
@@ -55,10 +55,10 @@ p{
 	0%{
 		opacity: 0;
 	}
-	40%{
+	30%{
 		opacity: 0;
 	}
-	50%{
+	40%{
 		opacity: 1;
 	}
 	100%{
@@ -79,18 +79,21 @@ p{
 		rotate: 0deg;
 	}
 	20%{
-		rotate: 20deg;
+		rotate: -10deg;
 	}
 	25%{
-		rotate: -20deg;
+		rotate: 360deg;
 	}
-	30%{
+	25.999%{
+		rotate: 360deg;
+	}
+	26%{
 		rotate: 0deg;
 	}
-	40%{
+	30%{
 		transform: translateY(0px);
 	}
-	50%{
+	40%{
 		transform: translateY(-200px);
 	}
 	100%{
