@@ -1,0 +1,99 @@
+body{
+	background-image: linear-gradient(125deg, white, #E1F5FE);
+}
+
+p{
+	cursor: default;
+}
+
+.avatar-style{
+	height: 10rem;
+	border-radius: 50%;
+	animation: avatar-animation 10s ease;
+	animation-fill-mode: forwards;
+}
+
+.main-container{
+	animation: container-animation 10s ease;
+	animation-fill-mode: forwards;
+}
+
+.Git-Btn{
+	text-decoration: none;
+	color: black;
+	padding: 10px 30px;
+	border-radius: 8px;
+	transition: .2s ease;
+	box-shadow: 0 0 3px gray;
+}
+
+.Git-Btn:hover{
+	padding: 10px 40px;
+}
+
+.translate-container{
+	animation: translate-animation 10s ease;
+	animation-fill-mode: forwards;
+}
+
+@keyframes translate-animation {
+	0%{
+		transform: translateY(0px);
+	}
+	40%{
+		transform: translateY(200px);
+	}
+	50%{
+		transform: translateY(0px);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+}
+
+@keyframes container-animation {
+	0%{
+		opacity: 0;
+	}
+	40%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@keyframes avatar-animation {
+	0%{
+		transform: translateY(-100px);
+		opacity: 0;
+	}
+	10%{
+		transform: translateY(0px);
+		opacity: 1;
+	}
+	15%{
+		rotate: 0deg;
+	}
+	20%{
+		rotate: 20deg;
+	}
+	25%{
+		rotate: -20deg;
+	}
+	30%{
+		rotate: 0deg;
+	}
+	40%{
+		transform: translateY(0px);
+	}
+	50%{
+		transform: translateY(-200px);
+	}
+	100%{
+		transform: translateY(-200px);
+	}
+}
